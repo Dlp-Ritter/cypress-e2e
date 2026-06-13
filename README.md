@@ -10,7 +10,7 @@ Suite de tests E2E automatizados con Cypress sobre [Sauce Demo](https://www.sauc
 
 ## Demo
 
-![Demo](https://github.com/tu-usuario/cypress-e2e-suite/raw/main/cypress/assets/demo.gif)
+![Demo](cypress/assets/demo.gif)
 
 ---
 
@@ -46,7 +46,7 @@ Suite de tests E2E automatizados con Cypress sobre [Sauce Demo](https://www.sauc
 ## Estructura
 
 ```
-cypress-e2e-suite/
+cypress-e2e/
 ├── cypress/
 │   ├── e2e/
 │   │   ├── auth/
@@ -70,8 +70,8 @@ cypress-e2e-suite/
 ## Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/cypress-e2e-suite.git
-cd cypress-e2e-suite
+git clone https://github.com/Dlp-Ritter/cypress-e2e
+cd cypress-e2e
 npm install
 ```
 
@@ -95,18 +95,12 @@ npx cypress run
 
 Este repo es parte de un flujo más grande:
 
-- [`docker-infra`](https://github.com/tu-usuario/docker-infra) — la app Node.js/Nginx contra la que en el futuro pienso adaptar estos tests (actualmente corren contra Sauce Demo como entorno de práctica).
-- [`jenkins-devsecops-pipeline`](https://github.com/tu-usuario/jenkins-devsecops-pipeline) — pipeline que ejecuta esta suite automáticamente en cada build.
+- [`docker-infra`](https://github.com/Dlp-Ritter/docker_infra) — la app Node.js/Nginx contra la que en el futuro pienso adaptar estos tests (actualmente corren contra Sauce Demo como entorno de práctica).
 
 ---
 
 ## Contacto
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tu-perfil/)
-[![Email](https://img.shields.io/badge/Email-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:tu-correo@protonmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/duglas-pop-guitz-490ab72b0)
+[![Email](https://img.shields.io/badge/Email-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:duglas_leonel_1704@protonmail.com)
 
----
-
-## Créditos
-
-Basado en el repositorio original de [JxsueMd16](https://github.com/JxsueMd16/cypress-e2e-suite), adaptado como parte de mi portafolio personal de aprendizaje en QA/DevSecOps.
